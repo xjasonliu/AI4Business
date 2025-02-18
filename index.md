@@ -1,4 +1,4 @@
 ---
-title: Welcome to my blog
+Jason Liu's blog: Welcome to Jason Liu's blog
 ---
 

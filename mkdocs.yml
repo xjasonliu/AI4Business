@@ -1,6 +1,109 @@
-site_name: My Awesome Blog
+# Project information
+site_name: AI4Business Blog
 site_url: https://xjasonliu.github.io/AI4Business/
+site_author: IBM Developer # Preserving this for now, can be changed later
 use_directory_urls: false
+
+# Repository
+repo_name: xjasonliu/AI4Business
+repo_url: https://github.com/xjasonliu/AI4Business/
+
+# Navigation
 nav:
-  - Home: index.md
-  - First Post: my-first-post.md
+  - Welcome:
+    - About the workshop: README.md
+  - Workshop:
+    - Prerequisite: prerequisite/README.md
+    - Introduction: introduction/README.md
+    - Lab 1. Set up Presto: lab-1/README.md
+    - Lab 2. Data Sources: lab-2/README.md
+    - Lab 3. Add Catalogs: lab-3/README.md
+    - Lab 4. Data Visualization : lab-4/README.md
+  - References:
+    - Helm: resources/HEML.md
+    - Additional Resources: resources/RESOURCES.md
+    - Contributors: resources/CONTRIBUTORS.md
+
+## DO NOT CHANGE BELOW THIS LINE
+
+# Copyright
+copyright: Copyright &copy; 2023 IBM Developer # Preserving this
+
+# Theme
+theme: # Preserving theme settings
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  icon:
+    logo: material/library
+  features:
+    - navigation.tabs
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - navigation.footer
+    #- navigation.instant
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+
+# Plugins
+plugins: # Preserving plugins
+  - search
+
+# Customization
+extra: # Preserving extra
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ibm # This might need update later
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ibmdeveloper # This might need update later
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/ibm/ # This might need update later
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/developerworks # This might need update later
+    - icon: fontawesome/brands/dev
+      link: https://dev.to/ibmdeveloper # This might need update later
+
+# Extensions
+markdown_extensions: # Preserving extensions
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

@@ -1,7 +1,7 @@
 # Project information
 site_name: AI4Business Blog
 site_url: https://xjasonliu.github.io/AI4Business/
-site_author: IBM Developer # Preserving this for now, can be changed later
+site_author: xjasonliu # Preserving this for now, can be changed later
 use_directory_urls: false
 
 # Repository

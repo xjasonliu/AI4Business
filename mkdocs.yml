@@ -1,8 +1,6 @@
 site_name: My Awesome Blog
-site_url: https://xjasonliu.github.io/AI4Business/ # Add this line
-use_directory_urls: false # Add this line
-theme:
-  name: material
+site_url: https://xjasonliu.github.io/AI4Business/
+use_directory_urls: false
 nav:
   - Home: index.md
   - First Post: my-first-post.md

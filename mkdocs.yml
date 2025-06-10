@@ -1,4 +1,5 @@
 site_name: My Awesome Blog
+site_url: https://xjasonliu.github.io/AI4Business/ # Add this line
 theme:
   name: material
 nav:

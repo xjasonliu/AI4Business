@@ -19,12 +19,16 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+  extra_css:
+    - assets/custom.css
     - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
     - content.code.annotate
     - content.code.copy
+  extra_css:
+    - assets/custom.css
 
 nav:
   - Welcome: index.md

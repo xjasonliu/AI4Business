@@ -1,6 +1,5 @@
 site_name: Presto Workshop - Getting Started with Presto
 repo_url: https://github.com/testing-company/test-repo
-edit_uri: edit/main/docs/
 
 theme:
   name: material

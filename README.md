@@ -17,5 +17,4 @@ Here is the file structure of this repo:
 README.md (only used for GitHub.com)
 ```
 
-## Authors
-- Yihong Wang yh.wang@ibm.com
+

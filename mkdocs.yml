@@ -1,34 +1,24 @@
 # Project information
-site_name: AI4Business Blog
+site_name: "AI4Business Blogs"
 site_url: https://xjasonliu.github.io/AI4Business/
-site_author: xjasonliu # Preserving this for now, can be changed later
-use_directory_urls: false
+site_author: "xjasonliu"
+use_directory_urls: true
 
 # Repository
-repo_name: xjasonliu/AI4Business
-repo_url: https://github.com/xjasonliu/AI4Business/
-edit_uri: edit/main/docs
+repo_name: "xjasonliu/AI4Business"
+repo_url: "https://github.com/xjasonliu/AI4Business/"
+edit_uri: edit/main/docs/
 
 # Navigation
 nav:
-  - Welcome:
-    - About the workshop: README.md
-  - Workshop:
-    - Prerequisite: prerequisite/README.md
-    - Introduction: introduction/README.md
-    - Lab 1. Set up Presto: lab-1/README.md
-    - Lab 2. Data Sources: lab-2/README.md
-    - Lab 3. Add Catalogs: lab-3/README.md
-    - Lab 4. Data Visualization : lab-4/README.md
-  - References:
-    - Helm: resources/HEML.md
-    - Additional Resources: resources/RESOURCES.md
-    - Contributors: resources/CONTRIBUTORS.md
+  - Home: README.md
+  - Posts: posts/README.md
+  - About: about.md
 
 ## DO NOT CHANGE BELOW THIS LINE
 
 # Copyright
-copyright: Copyright &copy; 2023 IBM Developer # Preserving this
+copyright: "Copyright &copy; 2023 xjasonliu"
 
 # Theme
 theme: # Preserving theme settings
@@ -57,16 +47,16 @@ plugins: # Preserving plugins
 # Customization
 extra: # Preserving extra
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ibm # This might need update later
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/ibmdeveloper # This might need update later
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/ibm/ # This might need update later
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/user/developerworks # This might need update later
-    - icon: fontawesome/brands/dev
-      link: https://dev.to/ibmdeveloper # This might need update later
+    # - icon: fontawesome/brands/github
+    #   link: https://github.com/ibm # This might need update later
+    # - icon: fontawesome/brands/twitter
+    #   link: https://twitter.com/ibmdeveloper # This might need update later
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://www.linkedin.com/company/ibm/ # This might need update later
+    # - icon: fontawesome/brands/youtube
+    #   link: https://www.youtube.com/user/developerworks # This might need update later
+    # - icon: fontawesome/brands/dev
+    #   link: https://dev.to/ibmdeveloper # This might need update later
 
 # Extensions
 markdown_extensions: # Preserving extensions

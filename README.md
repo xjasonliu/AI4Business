@@ -1,33 +1,20 @@
-<header>
-
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
-
-## Finish
-
-_Congratulations friend, you've completed this course!_
+# Presto Workshop
 
 
-<footer>
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+Here is the file structure of this repo:
+```ini
 
-</footer>
+- data (any data (CSV, JSON, etc files) to be used)
+- docs (this is where the workshop is documented)
+|_ <folder-n> (these are exercises for the workshop)
+  |_README.md (the steps for the exercise, in Markdown)
+|_ README.md (this will appear on the gitbook home page)
+- notebooks (any Jupyter notebooks can go here)
+- src (any application source code can go here)
+.mkdocs.yaml (configuration for mkdocs)
+.travis.yaml (runs markdownlint by default)
+README.md (only used for GitHub.com)
+```
+
+

@@ -31,7 +31,7 @@ theme:
     - assets/custom.css
 
 nav:
-  - Welcome: index.md
+  - Welcome: README.md
   - Workshop:
     - Introduction: workshop/introduction.md
     - Prerequisite: workshop/prerequisite.md

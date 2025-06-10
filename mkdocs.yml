@@ -1,0 +1,44 @@
+site_name: Presto Workshop - Getting Started with Presto
+repo_url: https://github.com/testing-company/test-repo
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: ibmplex
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+
+nav:
+  - Welcome: index.md
+  - Workshop:
+    - Introduction: workshop/introduction.md
+    - Prerequisite: workshop/prerequisite.md
+    - 'Lab 1: Set up Presto': workshop/lab1.md
+    - 'Lab 2: Data Sources': workshop/lab2.md
+    - 'Lab 3: Add Catalogs': workshop/lab3.md
+    - 'Lab 4: Data Visualization': workshop/lab4.md
+  - References:
+    - Helm: references/helm.md
+    - Additional Resources: references/additional-resources.md
+    - Contributors: references/contributors.md
+  - Blog:
+    - 'First Post': blog/2025-02-18-firstblog.md
